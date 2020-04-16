@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Juoksujaosto 2020
 
-You can use the [editor on GitHub](https://github.com/lindaliukas/juoksujaosto/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tälle sivustolle kerätään juoksujaoston kevään 2020 treenit. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Viikkohaasteet
 
-### Markdown
+#### Viikko 17
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Viikko 18
 
-```markdown
-Syntax highlighted code block
+#### Viikko 19
 
-# Header 1
-## Header 2
-### Header 3
+#### Viikko 20
 
-- Bulleted
-- List
+#### Viikko 21
 
-1. Numbered
-2. List
+#### Viikko 22
 
-**Bold** and _Italic_ and `Code` text
+#### Viikko 23
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lindaliukas/juoksujaosto/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
