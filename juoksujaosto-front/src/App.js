@@ -1,15 +1,25 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
+import Nav from "./components/Nav";
+import IntroCard from "./components/IntroCard";
 import "./App.css";
+import UserPage from "./components/UserPage";
+import HeaderFirst from "./components/HeaderFirst";
+import LoginForm from "./components/LoginForm";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Front page will be here</p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <div>
+          <Nav />
+          <Route exact path="/" component={HeaderFirst} />
+          <Route path="/loginform" component={LoginForm} />
+          <UserPage />
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
