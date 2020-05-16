@@ -10,18 +10,11 @@ import {
 } from "semantic-ui-react";
 
 let styles = {
-  color: "rgb(80, 42, 30)",
+  color: "grey",
 };
 
 const LoginForm = () => (
   <div className="login-form">
-    <style>{`
-      body > div,
-      body > div > div,
-      body > div > div > div.login-form {
-        height: 100%;
-      }
-    `}</style>
     <Grid textAlign="center" style={{ height: "100%" }} verticalAlign="middle">
       <Grid.Column style={{ maxWidth: 450 }}>
         <Header as="h2" style={styles} textAlign="center">
@@ -43,17 +36,17 @@ const LoginForm = () => (
               type="password"
             />
 
-            <Button color="brown" fluid size="large">
+            <Button color="grey" fluid size="large">
               Login
             </Button>
           </Segment>
         </Form>
-        <Message>
+        {/* <Message>
           New to us?{" "}
-          <a href="#" color="brown">
+          <a href="#" color="grey">
             Sign Up
           </a>
-        </Message>
+        </Message> */}
       </Grid.Column>
     </Grid>
   </div>
