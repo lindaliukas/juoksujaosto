@@ -29,8 +29,24 @@ app.get("/", (req, res) => {
   res.send("<h1>Hello World!</h1>");
 });
 
-app.get("/api/notes", (req, res) => {
+app.get("/api/runs", (req, res) => {
   res.json(mockData);
+});
+
+app.get("/api/runs/:id", (request, response) => {
+  const id = Number(request.params.id);
+  const run = mockData.find((run) => run.id === id);
+  if (run) {
+    response.json(run);
+  } else {
+    response.status(404).end();
+  }
+});
+
+app.delete("/api/runs/:id", (request, response) => {
+  const id = Number(request.params.id);
+  mockData = mockData.filter((run) => run.id === id);
+  response.status(204).end();
 });
 
 const PORT = 3001;
